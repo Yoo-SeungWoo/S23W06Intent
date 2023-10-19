@@ -20,6 +20,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.content.ContextCompat.startActivity
 import kr.ac.kumoh.ce.s20210734.s23w06intent.ui.theme.S23W06IntentTheme
 
+//Implicit Intent 암시적
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
